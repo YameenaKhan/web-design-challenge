@@ -19,20 +19,15 @@
 
 <body>
     <!-- Setting up the Navbar in the header -->
-    
-    <!-- Setting up the homepage button called "Latitude" -->
-    <div class="row">
-        <div class="col-md-6">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="/visualizations/Latitude.html">Latitude</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </nav>
-        </div>
-        <!-- Setting up the navigation buttons to the right side of the page -->
-        <div class="col-md-6">
-            <ul class="nav justify-content-end">
+        <!-- Setting up the homepage button called "Latitude" -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/index.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
                 <!-- Setting up the dropdown list for plots -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Plots</a>
@@ -49,9 +44,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/visualizations/Data.html">Data</a>
                 </li>
-                </ul>
-        </div>
-    </div>
+                
+              </ul>
+              
+            </div>
+          </nav>
+
     
     <!-- Setting up the main body of the landing page -->
     <div class="container">
@@ -61,7 +59,7 @@
         <div class="row">
             <!-- Dividing main body into two sections -->
             <!-- Left section -->
-             <div class="col-md-6 offset-md-1">
+             <div class="col-lg-7 col-md-12">
                 <br>
                 <h1>Max Temperature</h1>
                 <hr>
@@ -72,27 +70,27 @@
                 <br>
              </div>
              <!-- Right Section -->
-             <div class = "col-md-4">
+             <div class = "col-lg-4 col-md-12">
                 <br>
                 <h1>Visualizations</h1>
                 <hr>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <a href="/visualizations/MaxTemp.html">
                             <img src="/assets/images/Fig1.png" alt="Latitude vs. Temperature" width="250" align="Middle">  
                         </a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <a href="/visualizations/Humidity.html">
                             <img src="/assets/images/Fig2.png" alt="Latitude vs. Humidity" width="250" align="Middle">  
                         </a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <a href="/visualizations/Cloudiness.html">
                             <img src="/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" width="250" align="Middle">  
                         </a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-6">
                         <a href="/visualizations/Windspeed.html">
                             <img src="/assets/images/Fig4.png" alt="Latitude vs. WindSpeed" width="250" align="Middle">  
                         </a>
